@@ -1,0 +1,53 @@
+{
+  "feConfigs": {
+    "lafEnv": "https://laf.dev"
+  },
+  "systemEnv": {
+    "vectorMaxProcess": 15,
+    "qaMaxProcess": 15,
+    "pgHNSWEfSearch": 100
+  },
+  "llmModels": [
+    {
+      "model": "Qwen1.5-7B-Chat",
+      "name": "Qwen1.5-7B-Chat",
+      "avatar": "/imgs/model/openai.svg",
+      "maxContext": 2048,
+      "maxResponse": 512,
+      "quoteMaxToken": 2048,
+      "maxTemperature": 1.2,
+      "charsPointsPrice": 0,
+      "censor": false,
+      "vision": false,
+      "datasetProcess": true,
+      "usedInClassify": true,
+      "usedInExtractFields": true,
+      "usedInToolCall": true,
+      "usedInQueryExtension": true,
+      "toolChoice": true,
+      "functionCall": false,
+      "customCQPrompt": "",
+      "customExtractPrompt": "",
+      "defaultSystemChatPrompt": "",
+      "defaultConfig": {}
+    }
+  ],
+  "vectorModels": [
+    {
+      "model": "bge-m3",
+      "name": "bge-m3",
+      "avatar": "/imgs/model/openai.svg",
+      "charsPointsPrice": 0,
+      "defaultToken": 700,
+      "maxToken": 3000,
+      "weight": 100,
+      "defaultConfig": {},
+      "dbConfig": {},
+      "queryConfig": {}
+    }
+  ],
+  "reRankModels": [],
+  "audioSpeechModels": [
+  ],
+  "whisperModel": {}
+}
